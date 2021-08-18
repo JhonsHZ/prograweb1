@@ -1,2 +1,17 @@
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 .ini{color: black; height: 950px; text-align: center; background-color: white; padding: 50px;} 
+
+
+.videoWrapper{
+    position: relative;
+    padding-bottom: 56.25%;
+    /*Equals 16:9 */
+    height: 0;
+}
+.videoWrapper iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
